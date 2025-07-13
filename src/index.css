@@ -1,0 +1,94 @@
+/* WAR THEME */
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Arial Black', sans-serif;
+  background: #1a1a1a url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* rough texture */
+  color: #e0e0e0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #a0ff92;
+  text-shadow: 1px 1px 3px #000;
+  letter-spacing: 2px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 280px;
+  border: 2px solid #4b5320;
+  background-color: #2d2d2d;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #556b2f;
+  color: white;
+  border: 2px solid #4b5320;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6b8e23;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.game-card {
+  background: #2e2e2e;
+  border: 2px solid #4b5320;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-6px);
+  border-color: #6b8e23;
+}
+
+.game-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #6b8e23;
+}
+
+.game-card h3 {
+  margin-top: 10px;
+  color: #f0f0f0;
+  font-size: 1.1rem;
+}
+
+.game-card p {
+  font-size: 0.9rem;
+  color: #a0ff92;
+}
